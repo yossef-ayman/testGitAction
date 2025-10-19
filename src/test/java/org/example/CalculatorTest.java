@@ -29,7 +29,7 @@ class CalculatorTest {
     void testDivide() {
         Mathtest mat = new Mathtest();
         double r= mat.div(10,2);
-        Assertions.assertEquals(5, r, "Division should be correct");
+        Assertions.assertEquals(1, r, "Division should be correct");
 
     }
     @Test
