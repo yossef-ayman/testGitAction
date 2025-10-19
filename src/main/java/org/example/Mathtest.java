@@ -10,12 +10,12 @@ public class Mathtest {
     public  int mul(int a, int b) {
         return a * b;
     }
-//    public  double div(int a, int b) {
-//        if (b == 0) {
-//            throw new ArithmeticException("Cannot divide by zero");
-//        }
-//        return (double) a / b;
-//    }
+    public  double div(double a, double b) {
+        if (b == 0) {
+            throw new ArithmeticException("Cannot divide by zero");
+        }
+        return a / b;
+    }
     public  int mod(int a, int b) {
         return a % b;
     }

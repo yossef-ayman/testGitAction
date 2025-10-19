@@ -24,19 +24,19 @@ class CalculatorTest {
         int r= mat.mul(5,2);
         Assertions.assertEquals(10, r, "Multiplication should be correct");
     }
-//    @Test
+    @Test
 
-//    void testDivide() {
-//        Mathtest mat = new Mathtest();
-//        double r= mat.div(10,2);
-//        Assertions.assertEquals(1, r, "Division should be correct");
-//
-//    }
+    void testDivide() {
+        Mathtest mat = new Mathtest();
+        double r= mat.div(10,2);
+        Assertions.assertEquals(5.0, r, "Division should be correct");
+
+    }
     @Test
     void testMod() {
         Mathtest mat = new Mathtest();
         int r= mat.mod(5,2);
-        Assertions.assertEquals(3, r, "Mod should be correct");
+        Assertions.assertEquals(1, r, "Mod should be correct");
 
     }
 }
