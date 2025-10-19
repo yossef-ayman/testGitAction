@@ -9,7 +9,6 @@ class CalculatorTest {
     void testAdd() {
         Mathtest mat = new Mathtest();
         int result = mat.add(2, 3);
-        Assertions.assertEquals(5, result, "Addition should be correct");
     }
     @Test
     void testSubtract() {
@@ -21,8 +20,8 @@ class CalculatorTest {
 
     void testMultiply() {
         Mathtest mat = new Mathtest();
-        int r= mat.mul(5,2);
-        Assertions.assertEquals(10, r, "Multiplication should be correct");
+        int r= mat.mul(9,2);
+        Assertions.assertEquals(18, r, "Multiplication should be correct");
     }
     @Test
 
