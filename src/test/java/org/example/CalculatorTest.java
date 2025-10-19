@@ -36,7 +36,7 @@ class CalculatorTest {
     void testMod() {
         Mathtest mat = new Mathtest();
         int r= mat.mod(5,2);
-        Assertions.assertEquals(3, r, "Mod should be correct");
+        Assertions.assertEquals(1, r, "Mod should be correct");
 
     }
 }
